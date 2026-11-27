@@ -1,0 +1,16 @@
+# 빌드 결과물·배포 zip
+dist/
+build/
+release/
+*.zip
+*.spec
+
+# AI 엔진(Real-ESRGAN 실행 파일·모델, 약 51MB) — docs/DEVELOPMENT.md 「AI 엔진 넣기」대로 받아 넣는다
+engine/
+
+# 개인 설정·임시 파일
+settings.json
+*.tmp
+__pycache__/
+*.pyc
+backups/
